@@ -5,7 +5,7 @@ public class AnalyzedText implements Comparable<AnalyzedText>{
     private String text;
     private double sentiment;
 
-    public void AnalyzedText(String text) {
+    public AnalyzedText(String text) {
         if(!text.equals("")){
             this.text = text;
         }else{
